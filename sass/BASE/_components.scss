@@ -1,0 +1,27 @@
+.section-heading {
+    font-size: 2.125rem;
+    font-weight: 900;
+    color: $title-color;
+}
+
+.text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $text-color;
+}
+
+.section-margin {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media(min-width: 768px) {
+    .section-heading {
+        font-size: 3.125rem;
+    }
+
+    .section-margin {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
